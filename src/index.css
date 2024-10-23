@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important; /* Hide the default Swiper arrows */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 3px !important;
+  border-radius: 100px !important;
+}
+
+.slider-bullet {
+  width: 12px;
+  height: 3px;
+  border-radius: 100px 0px 0px 0px;
+}
+
+.slider-active {
+  background-color: lightgray;
+}
+/* 
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
